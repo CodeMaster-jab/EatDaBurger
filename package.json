@@ -1,0 +1,26 @@
+{
+  "name": "EatDaBurger",
+  "version": "1.0.0",
+  "description": "Node Express Handlebars application with MySQL to Log Burgers to eat",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodeMaster-jab/EatDaBurger.git"
+  },
+  "keywords": [],
+  "author": "Jeff Bell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CodeMaster-jab/EatDaBurger/issues"
+  },
+  "homepage": "https://github.com/CodeMaster-jab/EatDaBurger#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "mysql": "^2.18.1"
+  }
+}
